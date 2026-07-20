@@ -2,7 +2,21 @@
 
 A simple cross-platform desktop calculator with Material Design dark/light theme, built with [Fyne](https://fyne.io/) and [expr-lang/expr](https://github.com/expr-lang/expr).
 
-![](screenshot.png)
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><b>On Rocky Linux - dark theme</b></td>
+      <td align="center"><b>On Windows 11 - light theme</b></td>
+    </tr>
+    <tr>
+      <td><img src="Screenshot 2026-07-20 140420.png" alt="qr" width="400"></td>
+      <td><img src="Screenshot 2026-07-20 135658.png" alt="qr" width="400"></td>
+    </tr>
+  </table>
+</p>
+
+
+
 
 ## Features
 
@@ -81,7 +95,6 @@ go build -ldflags="-s -w" -o calculator .
 ├── i18n.go       # Localization (EN/RU)
 ├── validator.go  # Zero-division AST checker
 ├── Makefile      # Build automation
-└── backup.sh     # Backup script
 ```
 
 ## License
