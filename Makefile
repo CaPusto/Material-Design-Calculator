@@ -6,7 +6,7 @@ all: check-deps build
 
 PKG_MANAGER := $(shell command -v dnf >/dev/null 2>&1 && echo "dnf" || (command -v yum >/dev/null 2>&1 && echo "yum" || echo "apt"))
 
-# Packages for different managers
+# Packages for different app managers
 DEB_FYNEDEPS := gcc pkg-config libgl1-mesa-dev libegl1-mesa-dev \
     libxrandr-dev libxcursor-dev libxinerama-dev libxi-dev \
     libxkbcommon-dev libwayland-dev
